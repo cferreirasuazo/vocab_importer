@@ -3,5 +3,5 @@ import os
 
 load_dotenv()  # Load .env file
 
-LANG_BACKEND = os.getenv("LANG_BACKEND")
+BACKEND_IMPORTER_URL = os.getenv("BACKEND_IMPORTER_URL")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
